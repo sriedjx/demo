@@ -1,11 +1,7 @@
 name: package
 
 on: push
-env:
-  IMAGE_NAME: edjtest
-
 jobs:
-  # Build and run tests.
   build:
     runs-on: ubuntu-latest
     steps:
