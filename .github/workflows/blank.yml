@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Deploy to Kubernetes cluster
-    - uses: Azure/k8s-deploy@v1.1.0
+      uses: Azure/k8s-deploy@v1.1.0
       with:
         images:  hello-world
 
