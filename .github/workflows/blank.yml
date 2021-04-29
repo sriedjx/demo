@@ -1,14 +1,1 @@
-name: package
-
-on: push
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Deploy to Kubernetes cluster
-      uses: Azure/k8s-deploy@v1
-      with:
-       namespace: 'default'
-       images: hello-world:linux
-
 
