@@ -1,6 +1,8 @@
 1. clone the repo
-2. env ASSUME_ALWAYS_YES=YES pkg install lang/go
-3.env ASSUME_ALWAYS_YES=YES pkg install ports-mgmt/modules2tuple
-4.make makesum
-5.make gomod-vendor
-6.make install
+2. clone freebsd-ports-repo and copy all ports to /usr/ports
+`git clone https://github.com/freebsd/freebsd-ports.git`
+3. env ASSUME_ALWAYS_YES=YES pkg install lang/go
+4.env ASSUME_ALWAYS_YES=YES pkg install ports-mgmt/modules2tuple
+5.make makesum
+6.make gomod-vendor
+7.make install
