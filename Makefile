@@ -1,8 +1,10 @@
+# $FreeBSD$
+
 PORTNAME=	opentelemetry-collector
 DISTVERSIONPREFIX=	v
 DISTVERSION=	0.19.2
 CATEGORIES=	sysutils
-MAINTAINER=	vijay@gmail.com
+MAINTAINER=	vijay@edjx.io
 COMMENT=	The OpenTelemetry Collector offers a vendor-agnostic implementation on how to receive, process and export telemetry data.
 
 LICENSE=	APACHE20
